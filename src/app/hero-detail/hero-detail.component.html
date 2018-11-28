@@ -5,6 +5,9 @@
   <div>
     <label>name:
       <input [(ngModel)]="hero.name" placeholder="name">
+      <div>
+        <button (click)="save()" class="btn btn-success"><fa-icon icon="save"></fa-icon></button>
+      </div>
     </label>
   </div>
 </div>
